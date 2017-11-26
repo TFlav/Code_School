@@ -1,0 +1,11 @@
+totalSteps = int(input("How many steps? "))
+if totalSteps > 0:
+  print("__")
+  currentStep=1
+  
+  while currentStep < totalSteps :
+   print(" "*currentStep*2+"|_") #print spaces
+   currentStep = currentStep + 1 #increment step
+  
+  #last step is _ and not space so do out of loop
+  print("_"*currentStep*2+"|")?

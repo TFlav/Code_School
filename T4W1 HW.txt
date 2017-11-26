@@ -1,0 +1,5 @@
+*begin*
+Ask user what temperature system they want to use. 
+if the user enters F (fahrenheit) they are asked what temperature they want to convert.
+than its converted and prints the output and asks the user if they want to try again.
+this is done for Celcius
